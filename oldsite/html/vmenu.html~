@@ -1,0 +1,58 @@
+<table>
+<tr><th class="menu_head">The&nbsp;Independent Student&nbsp;Guide</th></tr>
+<tr><td><table><tr>
+<td class="menu_item">
+<a href="recipes.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Recipes for students</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="groceries.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Grocery shopping</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="http://www.princeton.edu/~isu/kitchen" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Kitchens on campus</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="nutrition.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Healthy eating</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="perspectives.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Independent Perspectives</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="budget.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Budget tips</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="discounts.shtml" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Local discounts</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="unknown_link" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Restaurant reviews</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="http://www.princeton.edu/~udi/" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">The&nbsp;Upperclass Dining&nbsp;Initiative</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="http://facilities.princeton.edu/dining/_Points/PointDifference.htm" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">Dining Points</a>
+</td>
+</tr>
+<tr>
+<td class="menu_item">
+<a href="http://www.princeton.edu/cjlife/" onclick="javascript:function ew(i,j){return i.substring(i.length-j.length)==j;} var t=&apos;discounts.html&apos;; var s=&apos;discounts.shtml&apos;; if (!ew(this.href,t) &amp;&amp; !ew(this.href,s)) { alert(&apos;goes nowhere\nTry Local discounts&apos;); return false; } return true;">The&nbsp;Center for &nbsp;Jewish&nbsp;Life</a>
+</td>
+</tr>
+</table></td></tr></table>

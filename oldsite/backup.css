@@ -1,0 +1,40 @@
+body { background-color: green; }
+
+/*
+body { margin: 2px; font-family: Arial, sans-serif; background-color: white; }
+h1, h2, h3 { margin-top: .6cm; }
+p, ul { padding-left: .5cm; }
+.note { font-size: 75%; }
+.main { text-align: left; vertical-align: top; }
+.menu { width: 2in; }
+.menu { clear: left; float: right; }
+em { font-weight: 600; }
+
+img { border: none; }
+
+table, td, th { text-align: left; vertical-align: top; }
+table.chart { border-collapse: collapse; }
+table.chart th {
+   vertical-align: bottom;
+   padding: .2cm .5cm .05cm;
+   border-style: none none dotted;
+}
+table.chart td, th {
+   border-style: dotted none;
+   border-width: thin;
+   border-color: black;
+   padding: .2cm;
+}
+table .even { background-color: #EEE; }
+
+a { text-decoration: none; }
+a:link { }
+# a:visited { text-decoration: none; }
+a:hover { color: #F90; text-decoration: underline; }
+a:active { }
+
+a.credit { color: black; text-decoration: underline; }
+a.credit:hover { background-color: #F90; }
+.footer { padding-left: 0cm; font-size: 75%; }
+.maplink { font-size: 70%; }
+*/

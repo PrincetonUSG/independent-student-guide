@@ -1,0 +1,39 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #fff;
+   margin: 0;
+   padding: 0;
+}
+#menu {
+   float: left;
+   clear: left;
+   width: 5cm;
+   background: black;
+   margin: 0;
+   margin-right: .5cm;
+   padding: .2cm;
+}
+#menu a {
+   display: block;
+   text-decoration: none;
+   color: #f80;
+   margin: .1cm;
+}
+#menu a:hover {
+   text-decoration: underline;
+}
+.picfloat { float: left; }
+h1, h2, h3 { margin-top: 0; }
+table.chart { border-collapse: collapse; }
+.chart td { border-top: dotted 1px black; padding: .1cm; }
+td.even {
+   background: #eee;
+}
+.column { float: left; }
+.maplink { font-size: 75%; }
+.footer {
+   float: left;
+   clear: left;
+   font-size: 70%;
+}
+.footer a { color: #000; }

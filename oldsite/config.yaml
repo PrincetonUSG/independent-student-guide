@@ -1,0 +1,18 @@
+--- #YAML:1.0
+basedir: '.'
+pages: 'lists/menu.yaml'
+menu: 'html/menu.html'
+href: '$name.shtml'
+shtml: '$name.shtml'
+menugif: 'pics/menu$name.gif'
+pagegif: 'pics/page$name.gif'
+html: './html/$name.html'
+htmlurl: './html/$name.html'
+base: './base.shtml'
+debughtml: 'html/debug.html'
+defroller: 'pics/menuindex.gif'
+special: './perl/gen_$name.pl'
+header: '<div class="pic\$float"><img src="pics/page$name.gif" class="headpic" alt="$alt" /></div>'
+cssurl: 'css.css'
+menuurl: './html/menu.html'
+float: header

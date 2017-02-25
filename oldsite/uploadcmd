@@ -1,0 +1,1 @@
+tar -chvf - . | ssh phoenix.princeton.edu -lisg 'cd public_html ; tar -xvf -'

@@ -1,0 +1,390 @@
+--- #YAML:1.0
+maps:
+  - name: Google
+    text: '[Google]'
+    url: 'http://maps.google.com/?q=$street+$city,+$state,+$zip'
+  - name: Yahoo
+    text: '[Yahoo]'
+    url: 'http://us.rd.yahoo.com/maps/us/insert/Tmap/extmap/*-http://maps.yahoo.com/maps_result?addr=$street&csz=$city%2c+$state+$zip&country=us'
+  - name: MapQuest
+    text: '[MapQuest]'
+    url: 'http://www.mapquest.com/maps/map.adp?city=$city&state=$state&address=$street&zip=$zip&country=us&zoom=8'
+orders:
+  - &Tiger
+    name: Tiger Foods
+    href: http://www.princeton.edu/tigerfood/
+    menu: http://www.princeton.edu/tigerfood/tigerfoodmenu.pdf
+    phone: x8-2000
+  - &Campus
+    name: Campusfoods.com
+    href: http://www.campusfood.com/restaurants.asp?campusid=80
+    phone: online
+  - &Pickup
+    name: Campusfoods.com pick-up
+    href: http://www.campusfood.com/restaurants.asp?campusid=80
+    phone: 'online (pick-up only)'
+restaurants:
+  - name: Ajihei
+    type: [Japanese,sushi]
+    href: http://www.ajiheiprinceton.com/
+    phone: '(609) 252-1158'
+    address:
+      street: 11 Chambers St
+      city: Princeton
+      state: NJ
+      zip: 08542-3707
+  - name: Alchemist and Barrister
+    type: [restaurant, pub]
+    href: http://www.alchemistandbarrister.com/
+    phone: '(609) 924-5555'
+    address:
+      street: 28 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3293
+  - name: The Annex
+    type: [Italian]
+    href: http://www.restaurant.com/microsite.asp?rid=308160
+    phone: '(609) 921-7555'
+    address:
+      street: 128 1/2 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4516
+  - name: The Bent Spoon
+    type: [desserts,ice cream]
+    phone: '(609) 924-2368'
+    address:
+      street: 35 Palmer Square West
+      city: Princeton
+      state: NJ
+      zip: '08544'
+  - name: Blue Point Grill
+    type: [seafood]
+    href: http://www.bluepointgrill.com/blue_point_grill.htm
+    phone: '(609) 921-1211'
+    address:
+      street: 258 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4623
+  - name: Bucks County Coffee Company
+    type: [coffee]
+    href: http://www.buckscountycoffee.com/
+    phone: '(609) 497-6877'
+    address:
+      street: 5 Palmer Sq W
+      city: Princeton
+      state: NJ
+      zip: 08542-3711
+  - name: Chuck's Spring Street Cafe
+    type: [wings,American]
+    phone: '(609) 921-0027'
+    address:
+      street: 16 Spring St
+      city: Princeton
+      state: NJ
+      zip: '08542'
+  - name: Ferry House
+    type: [French-American]
+    href: http://www.theferryhouse.com/
+    phone: '(609) 924-2488'
+    address:
+      street: 32 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3347
+  - name: George's Roasters and Ribs
+    type: [hoagies,ribs]
+    order: *Tiger
+    phone: '(609) 252-0419'
+    address:
+      street: 244 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4611
+  - name: Golden Mushroom
+    phone: '(609) 924-2628'
+    address:
+      street: 354 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08540-4615
+  - name: Hoagie Haven
+    type: [hoagies]
+    href: http://www.njyp.com/hogmen.htm
+    phone: '(609) 921-7723'
+    address:
+      street: 242 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08540-3422
+  - name: Iano's Rosticceria
+    type: [pizza]
+    phone: '(609) 924-5515'
+    address:
+      street: 86 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4520
+  - name: Ichiban
+    type: [Japanese,sushi]
+    phone: '(609) 683-8323'
+    address:
+      street: 66 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3347
+  - name: Ivy Garden
+    type: [Chinese]
+    order: *Campus
+    href: |-
+      http://www.campusfood.com/restaurants.asp?campusid=80&restid=2165
+    phone: '(609) 921-2388'
+    address:
+      street: 238 Nassau St
+      city: Princeton
+      state: NJ
+      zip: '08542'
+  - name: J.B. Winberie
+    type: [restaurant,pub]
+    href: |-
+      http://www.restaurantpassion.com/listing.asp?r=cafewinberie11
+    phone: '(609) 921-0700'
+    address:
+      street: 1 Palmer Sq E # 1
+      city: Princeton
+      state: NJ
+      zip: 08542-3718
+  - name: Kalluri Corner
+    type: [Indian]
+    order: *Tiger
+    phone: '(609) 688-8923'
+    address:
+      street: 235a Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08540-4619
+  - name: Karen's
+    type: [Chinese]
+    href: http://www.karenschinesefood.com/
+    phone: '(609) 683-1968'
+    address:
+      street: 36 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3347
+  - name: Lahiere's
+    type: [French]
+    phone: '(609) 921-2798'
+    address:
+      street: 5 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3288
+  - name: Masala Grill
+    type: [Indian]
+    order: *Pickup
+    phone: '(609) 921-0500'
+    address:
+      street: 15 Chambers St
+      city: Princeton
+      state: NJ
+      zip: 08542-3707
+  - name: Massimo's Pizza
+    type: [pizza]
+    phone: '(609) 924-0777'
+    address:
+      street: 124 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4516
+  - name: Mediterra
+    type: [Mediterranean]
+    href: http://www.t2restaurants.com/mediterra.html
+    phone: '(609) 252-9680'
+    address:
+      street: 29 Hulfish St
+      city: Princeton
+      state: NJ
+      zip: 08542-3709
+  - name: M&eacute;h&eacute;k
+    type: [Indian]
+    phone: '(609) 430-1071'
+    address:
+      street: 164 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7005
+  - name: Mezzaluna
+    type: [Italian]
+    phone: '(609) 688-8515'
+    address:
+      street: 25 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: '08542'
+  - name: Moondoggie Caf&eacute;
+    type: [coffee,sandwiches]
+    href: http://www.moondoggiecafe.com/
+    order: *Tiger
+    phone: '(609) 252-0300'
+    address:
+      street: 33 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3346
+  - name: Nassau Bagel and Sushi
+    type: [bagels,sushi,Japanese,Korean]
+    phone: '(609) 497-3275'
+    address:
+      street: 179 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7013
+  - name: Old World Pizza
+    type: [pizza]
+    phone: '(609) 924-9321'
+    address:
+      street: 242 Nassau St
+      city: Princeton
+      state: NJ
+      zip: '08542'
+  - name: Olive's
+    type: [bakery,catering]
+    order: *Tiger
+    phone: '(609) 921-1569'
+    address:
+      street: 22 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3347
+  - name: P.J.'s Pancake House
+    type: [pancakes]
+    href: http://www.pancakes.com/
+    phone: '(609) 924-1353'
+    address:
+      street: 154 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7006
+  - name: Panera Bread
+    type: [bakery,coffee,sandwiches]
+    href: http://www.paneranj.com/
+    phone: '(609) 683-5222'
+    address:
+      street: 134 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7014
+  - name: Sakura Express
+    type: [Japanese,sushi]
+    order: *Tiger
+    phone: '(609) 430-1180'
+    address:
+      street: 43 Witherspoon St
+      city: Princeton
+      state: NJ
+      zip: 08542-3346
+  - name: Soonja's Cafe
+    type: [Chinese,Japanese,sushi,Thai,Korean]
+    phone: '(609) 924-9260'
+    address:
+      street: 242 Alexander St
+      city: Princeton
+      state: NJ
+      zip: 08540-7104
+  - name: The Taste of Mexico
+    type: [Mexican]
+    order: *Tiger
+    phone: '(609) 252-1575'
+    address:
+      street: 301 N Harrison St
+      city: Princeton
+      state: NJ
+      zip: '08540'
+  - name: Teresa's Caf&eacute; Italiano
+    type: [Italian]
+    href: http://www.t2restaurants.com/teresas_cafe.html
+    phone: '(609) 921-1974'
+    address:
+      street: 21 Palmer Sq E
+      city: Princeton
+      state: NJ
+      zip: 08542-3714
+  - name: Thai Village
+    type: [Thai]
+    phone: '(609) 683-3896'
+    address:
+      street: 235 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08540-4619
+  - name: Thomas Sweet
+    type: [ice cream]
+    phone: '(609) 683-8720'
+    address:
+      street: 179 Nassau St
+      city: Princeton
+      state: NJ
+      zip: '08542'
+  - name: Tiger Noodles
+    type: [Chinese]
+    href: http://www.yayanoodles.com/
+    order: *Tiger
+    phone: '(609) 252-0663'
+    address:
+      street: 260 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-4622
+  - name: Tomo Sushi
+    type: [Japanese,sushi]
+    phone: '(609) 924-8478'
+    address:
+      street: 236 Nassau St
+      city: Princeton
+      state: NJ
+      zip: '08540'
+  - name: Tortuga's Mexican Village
+    type: [Mexican]
+    phone: '(609) 924-5143'
+    address:
+      street: 44 Leigh Ave
+      city: Princeton
+      state: NJ
+      zip: 08542-3112
+  - name: Triumph Brewing Company
+    type: [restaurant,pub]
+    href: http://www.triumphbrew.com/
+    phone: '(609) 924-7855'
+    address:
+      street: 138 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7011
+  - name: Whole Earth Center
+    type: [organic,grocery]
+    phone: '(609) 924-7421'
+    address:
+      street: 360 Nassau St # 1
+      city: Princeton
+      state: NJ
+      zip: '08540'
+  - name: Wild Oats
+    type: [organic,grocery]
+    href: http://www.wildoats.com/
+    phone: '(609) 924-4993'
+    address:
+      street: 255 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08540-4619
+  - name: Zorba's Grill
+    type: [Greek]
+    phone: '(609) 924-2454'
+    address:
+      street: 183 Nassau St
+      city: Princeton
+      state: NJ
+      zip: 08542-7007

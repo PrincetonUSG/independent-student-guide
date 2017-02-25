@@ -1,0 +1,116 @@
+<h2>The USG has negotiated student discounts at local merchants</h2>
+<h3>All discounts are available to students with valid PUID.</h3>
+<table class="chart">
+ <tr>
+  <th class="chart_even">Vendor</th>
+  <th class="chart_odd">Discount</th>
+  <th class="chart_even">Example Products</th>
+  <th class="chart_odd">Address</th>
+  <th class="chart_even">Phone #</th>
+ </tr>
+ <tr>
+  <td class="chart_even">Au Courant Opticians</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Eyewear, Repair</td>
+  <td class="chart_odd">57 Palmer Square West</td>
+  <td class="chart_even">921-9695</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Bucks County Coffee Company</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Coffee, Sandwiches, Treats</td>
+  <td class="chart_odd">5 Palmer Square West</td>
+  <td class="chart_even">497-6877</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Hinkson's</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Computer &amp; School Supplies</td>
+  <td class="chart_odd">82 Nassau Street</td>
+  <td class="chart_even">924-0112</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Hulit's Shoes</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Shoes, Polish</td>
+  <td class="chart_odd">142 Nassau Street</td>
+  <td class="chart_even">924-1952</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Jordan's Of Princeton </td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Cards, Gifts, Party Goods</td>
+  <td class="chart_odd">Princeton Shopping Center</td>
+  <td class="chart_even">924-6161</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Moondoggie Caf&eacute;</td>
+  <td class="chart_odd">15%</td>
+  <td class="chart_even">Sandwiches, Salads, Treats</td>
+  <td class="chart_odd">33 Witherspoon Street</td>
+  <td class="chart_even">252-0300</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Nassau Liquors</td>
+  <td class="chart_odd">At least 5% Off</td>
+  <td class="chart_even">Wine, Liquor, Beer</td>
+  <td class="chart_odd">264 Nassau</td>
+  <td class="chart_even">924-0031</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Olives Deli &amp; Bakery</td>
+  <td class="chart_odd">7%</td>
+  <td class="chart_even">Sandwiches, Salads, Treats</td>
+  <td class="chart_odd">22 Witherspoon Street</td>
+  <td class="chart_even">921-1569</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Pequod</td>
+  <td class="chart_odd">10% - Except packets &amp; visas</td>
+  <td class="chart_even">Printing, Binding, Graphics</td>
+  <td class="chart_odd">743 Alexander Road</td>
+  <td class="chart_even">951-0300</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Princeton Photo</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Photos, Film, Camera</td>
+  <td class="chart_odd">126 Nassau Street</td>
+  <td class="chart_even">683-1211</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Princeton Wine and Liquor</td>
+  <td class="chart_odd">10% - Using cash or debit</td>
+  <td class="chart_even">Wine, Liquor, Beer</td>
+  <td class="chart_odd">174 Nassau Street</td>
+  <td class="chart_even">924-0279</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Pryde Brown Photographs</td>
+  <td class="chart_odd">15% - Except passports</td>
+  <td class="chart_even">Portraits, Vintage &amp; Archival Photos</td>
+  <td class="chart_odd">180 Nassau Street</td>
+  <td class="chart_even">924-9742</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Shop the World at the Salty Dog</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Fair Trade Store, International Gifts</td>
+  <td class="chart_odd">4 Spring Street</td>
+  <td class="chart_even">924-0455</td>
+ </tr>
+ <tr>
+  <td class="chart_even">Varsity Liquors</td>
+  <td class="chart_odd">5% Beer &amp; Liquor, 10% Wine</td>
+  <td class="chart_even">Wine, Liquor, Beer</td>
+  <td class="chart_odd">234 Nassau Street</td>
+  <td class="chart_even">924-0836</td>
+ </tr>
+ <tr>
+  <td class="chart_even">White Lotus Home</td>
+  <td class="chart_odd">10%</td>
+  <td class="chart_even">Furniture, Futons, D&eacute;cor</td>
+  <td class="chart_odd">202 Nassau Street</td>
+  <td class="chart_even">497-1000</td>
+ </tr>
+</table>

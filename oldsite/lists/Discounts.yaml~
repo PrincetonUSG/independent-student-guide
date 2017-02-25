@@ -1,0 +1,98 @@
+--- #YAML:1.0
+headers:
+  - Vendor
+  - Discount
+  - Example Products
+  - Address
+  - 'Phone #'
+discounts:
+  - discount:
+      - Au Courant Opticians
+      - 10%
+      - Eyewear, Repair
+      - 57 Palmer Square West
+      - 921-9695
+  - discount:
+      - Bucks County Coffee Company
+      - 10%
+      - Coffee, Sandwiches, Treats
+      - 5 Palmer Square West
+      - 497-6877
+  - discount:
+      - "Hinkson's"
+      - 10%
+      - Computer &amp; School Supplies
+      - 82 Nassau Street
+      - 924-0112
+  - discount:
+      - Hulit's Shoes
+      - 10%
+      - Shoes, Polish
+      - 142 Nassau Street
+      - 924-1952
+  - discount:
+      - "Jordan's Of Princeton"
+      - 10%
+      - Cards, Gifts, Party Goods
+      - Princeton Shopping Center
+      - 924-6161
+  - discount:
+      - Moondoggie Caf&eacute;
+      - 15%
+      - Sandwiches, Salads, Treats
+      - 33 Witherspoon Street
+      - 252-0300
+  - discount:
+      - Nassau Liquors
+      - At least 5% Off
+      - Wine, Liquor, Beer
+      - 264 Nassau
+      - 924-0031
+  - discount:
+      - Olives Deli &amp; Bakery
+      - 0.07
+      - Sandwiches, Salads, Treats
+      - 22 Witherspoon Street
+      - 921-1569
+  - discount:
+      - Pequod
+      - 10% - Except packets &amp; visas
+      - Printing, Binding, Graphics
+      - 743 Alexander Road
+      - 951-0300
+  - discount:
+      - Princeton Photo
+      - 10%
+      - Photos, Film, Camera
+      - 126 Nassau Street
+      - 683-1211
+  - discount:
+      - Princeton Wine and Liquor
+      - 10% - Using cash or debit
+      - Wine, Liquor, Beer
+      - 174 Nassau Street
+      - 924-0279
+  - discount:
+      - Pryde Brown Photographs
+      - 15% - Except passports
+      - Portraits, Vintage &amp; Archival Photos
+      - 180 Nassau Street
+      - 924-9742
+  - discount:
+      - Shop the World at the Salty Dog
+      - 10%
+      - Fair Trade Store, International Gifts
+      - 4 Spring Street
+      - 924-0455
+  - discount:
+      - Varsity Liquors
+      - 5% Beer &amp; Liquor, 10% Wine
+      - Wine, Liquor, Beer
+      - 234 Nassau Street
+      - 924-0836
+  - discount:
+      - White Lotus Home
+      - 10%
+      - Furniture, Futons, D&eacute;cor
+      - 202 Nassau Street
+      - 497-1000

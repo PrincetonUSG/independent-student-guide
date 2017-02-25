@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Independent Student Guide - Upperclass Dining Initiative - Princeton University</title>
+<link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+<body>
+<div id="whole">
+<!--#include virtual="./html/menu.html" -->
+<div id="content"><!--#include virtual="./html/udi.html" --></div>
+<div class="footer">last edited: <!--#flastmod virtual="./html/udi.html" --><br />comments, complaints, corrections: <a href="mailto:isg@princeton.edu">Ben Haskell</a></div>
+</div>
+</body>
+</html>

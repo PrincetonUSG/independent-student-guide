@@ -1,0 +1,76 @@
+--- #YAML:1.0
+- name: index
+  desc: The Independent Student Guide
+  alt: The ISG
+  gen: yes
+- name: reviews
+  desc: Restaurant Guide
+  alt: Restaurants
+  gen: special
+- name: recipes
+  desc: Recipes for students
+  alt: Recipes
+  gen: yes
+- name: groceries
+  desc: Grocery shopping
+  alt: Groceries
+  gen: yes
+- name: mccaffreys
+  desc: McCaffrey's Delivery
+  alt: Grocery Delivery
+  gen: yes
+- name: kitchen
+  desc: Kitchens on campus
+  alt: Kitchens
+  gen: yes
+- name: nutrition
+  desc: Healthy eating
+  alt: Nutrition
+  gen: yes
+- name: busroutes
+  desc: Bus Routes
+  alt: Buses
+  gen: yes
+- name: perspectives
+  desc: Independent Perspectives
+  alt: Perspectives
+  skip: 1
+  gen: yes
+- name: roomdraw
+  desc: Independent Room&nbsp;Draw Guide
+  alt: Room Draw
+  gen: yes
+- name: budget
+  desc: Budget tips
+  alt: Budget
+  gen: yes
+- name: discounts
+  desc: Local discounts
+  alt: Discounts
+  header: ''
+  gen: special
+- name: brown
+  href: http://www.princeton.edu/~brwncoop/
+  desc: The Brown Co-op
+  alt: Brown
+- name: 2d
+  href: http://www.princeton.edu/~twod/
+  desc: '2 Dickinson ("2D") Co-op'
+  alt: '"2D"'
+- name: udi
+  desc: Upperclass Dining Initiative
+  alt: The UDI
+  gen: yes
+  header: ''
+- name: points
+  href: http://facilities.princeton.edu/dining/_Points/PointDifference.htm
+  desc: Dining Points
+  alt: Dining Points
+- name: cjl
+  href: http://www.princeton.edu/cjlife/
+  desc: The&nbsp;Center for &nbsp;Jewish&nbsp;Life
+  alt: The CJL
+- name: isu
+  href: http://www.princeton.edu/~isu/
+  desc: The&nbsp;Independent Student&nbsp;Union
+  alt: The ISU

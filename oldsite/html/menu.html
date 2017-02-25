@@ -1,0 +1,44 @@
+<script type="text/javascript"><!--
+hover = new Array(20);
+for(var i = 0; i < 20; i++) { hover[i] = new Image(); }
+hover[1].src="pics/menuindex.gif";
+hover[2].src="pics/menureviews.gif";
+hover[3].src="pics/menurecipes.gif";
+hover[4].src="pics/menumccaffreys.gif";
+hover[5].src="pics/menukitchen.gif";
+hover[6].src="pics/menunutrition.gif";
+hover[7].src="pics/menubusroutes.gif";
+hover[8].src="pics/menuperspectives.gif";
+hover[9].src="pics/menuroomdraw.gif";
+hover[10].src="pics/menudiscounts.gif";
+hover[11].src="pics/menubrown.gif";
+hover[12].src="pics/menu2d.gif";
+hover[13].src="pics/menuudi.gif";
+hover[14].src="pics/menupoints.gif";
+hover[15].src="pics/menucjl.gif";
+hover[16].src="pics/menuisu.gif";
+hover[17].src="pics/menuprinceton.gif";
+function onImg(n) { document.images.roller.src=hover[n].src; }
+function offImg(n) { document.images.roller.src="pics/menuindex.gif"; }
+--></script>
+<div id="menu">
+<div><a class="menuitem" href="index.shtml" onmouseover="onImg(1)" onmouseout="offImg(1)">The Independent Student Guide</a></div>
+<div><a class="menuitem" href="reviews.shtml" onmouseover="onImg(2)" onmouseout="offImg(2)">Restaurant Guide</a></div>
+<div><a class="menuitem" href="recipes.shtml" onmouseover="onImg(3)" onmouseout="offImg(3)">Recipes for students</a></div>
+<div><a class="menuitem" href="mccaffreys.shtml" onmouseover="onImg(4)" onmouseout="offImg(4)">McCaffrey's Delivery</a></div>
+<div><a class="menuitem" href="kitchen.shtml" onmouseover="onImg(5)" onmouseout="offImg(5)">Kitchens on campus</a></div>
+<div><a class="menuitem" href="nutrition.shtml" onmouseover="onImg(6)" onmouseout="offImg(6)">Healthy eating</a></div>
+<div><a class="menuitem" href="busroutes.shtml" onmouseover="onImg(7)" onmouseout="offImg(7)">Bus Routes</a></div>
+<div><a class="menuitem" href="perspectives.shtml" onmouseover="onImg(8)" onmouseout="offImg(8)">Independent Perspectives</a></div>
+<div><a class="menuitem" href="roomdraw.shtml" onmouseover="onImg(9)" onmouseout="offImg(9)">Independent Room&nbsp;Draw Guide</a></div>
+<div><a class="menuitem" href="discounts.shtml" onmouseover="onImg(10)" onmouseout="offImg(10)">Local discounts</a></div>
+<div><a class="menuitem" href="http://www.princeton.edu/~brwncoop/" onmouseover="onImg(11)" onmouseout="offImg(11)">The Brown Co-op</a></div>
+<div><a class="menuitem" href="http://www.princeton.edu/~twod/" onmouseover="onImg(12)" onmouseout="offImg(12)">2 Dickinson ("2D") Co-op</a></div>
+<div><a class="menuitem" href="udi.shtml" onmouseover="onImg(13)" onmouseout="offImg(13)">Upperclass Dining Initiative</a></div>
+<div><a class="menuitem" href="http://facilities.princeton.edu/dining/_Points/PointDifference.htm" onmouseover="onImg(14)" onmouseout="offImg(14)">Dining Points</a></div>
+<div><a class="menuitem" href="http://www.princeton.edu/cjlife/" onmouseover="onImg(15)" onmouseout="offImg(15)">The&nbsp;Center for &nbsp;Jewish&nbsp;Life</a></div>
+<div><a class="menuitem" href="http://www.princeton.edu/~isu/" onmouseover="onImg(16)" onmouseout="offImg(16)">The&nbsp;Independent Student&nbsp;Union</a></div>
+<div><a class="menuitem" href="http://www.princeton.edu/" onmouseover="onImg(17)" onmouseout="offImg(17)">Princeton University</a></div>
+<div><img src="pics/menuindex.gif" id="roller" alt="" /></div>
+</div>
+
